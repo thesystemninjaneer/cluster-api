@@ -33,4 +33,4 @@ $(RELEASELINK): $(TOOLS_DIR)/go.mod
 
 .PHONY: serve
 serve:
-	mdbook serve
+	mdbook serve -n 0.0.0.0
